@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Scan completado ", Toast.LENGTH_LONG).show();
             }
         } else {
-            // This is important, otherwise the result will not be passed to the fragment
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
